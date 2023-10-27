@@ -1,0 +1,93 @@
+#wrapper{
+     overflow-y: auto; overflow-x: hidden;
+}
+*{margin:0px;padding:0px;}
+.page1{
+    background: url(/me1.jpeg);
+    background-size: 100% 100%;   display:flex;
+    background-attachment: fixed; 
+    justify-content: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height:100vh;width:100vw;
+}
+.page2{
+    background: url(/loyola1.jpg);
+    background-size: 100% 100%;
+    display:flex; justify-content: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:100vh;width:100vw;
+}
+.page3{
+    background: url(/bitm.jpg);
+    background-size: 100% 100%;
+    display:flex; justify-content: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:100vh;width:100vw;
+}
+.page1 h1{
+    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: relative;
+    margin:auto;background-color: gold;
+    text-align: center;left:48vh;padding:10px;width:250vw;
+}
+.page2 h1{
+    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: relative;
+    margin:auto;background-color: gold;width:850vw;
+    text-align: center;left:30vh;padding:0px;
+}
+.page3 h1{
+    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: relative;
+    margin:auto;background-color: gold;width:700vw;
+    text-align: center;left:50vh;padding:0px;
+}
+.page1 p{
+    padding:50px;position:relative;
+    background-color:rgb(22, 46, 67); color:white;
+    font-size:100px;font-family:georgia;height:800px;width:200vw;
+    top:60%;
+}
+.page2 p{
+    padding:50px;position:relative;
+    background-color:rgb(22, 46, 67); color:white;
+    font-size:80px;font-family:georgia;height:800px;width:350vw;
+    top:63%;
+}
+.page3 p{
+    padding:50px;position:relative;
+    background-color:rgb(22, 46, 67); color:white;
+    font-size:90px;font-family:georgia;height:400px;width:650%;
+    top:70%;
+}
+.footer{
+    display:flex;
+    margin-top:50px;
+    width:100vw;background-color: #333;
+    color:#efefef; padding:200px;
+    font-family: 'poppins', sans-serif;
+}
+.footer div{
+    text-align:center;font-family:poppins;box-sizing: border-box;
+}
+.col1 h2, .col2 h2, .col3 h2{font-size: 150px;font-weight:250px;margin-bottom: 50px;}
+.col2{
+    flex-grow:0.1;
+    font-size:100px;
+    letter-spacing: 1px;
+}
+.col1{
+    flex-grow:.4;
+    font-size:100px; font-weight:100px;
+}
+.col3{
+    flex-grow:.4;
+    font-size:80px;
+}
+input[type=text]{width:800px;height:100px;padding:10px;font-size:80px;}
+input[type=submit]{width:80px;border-radius: 3px;height:90px;}
+label{font-size:80px;}
+::placeholder{font-size:80px; color:grey;text-align: center;}
+.col1 a, .col3 a{
+    text-decoration: none; display:block;color:#efefef; margin-bottom: 5px;
+}

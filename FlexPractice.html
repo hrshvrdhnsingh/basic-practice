@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        #flex-div{
+            display:flex;
+            background-color: aquamarine;
+            height:700px;
+            align-content:flex-end;
+            justify-content:space-evenly;
+            
+
+        }
+        #flex-div > div{
+            margin: 0px;
+            background-color: greenyellow;
+            font-size:35px;
+            border:1px solid black;
+            flex-grow:3;
+        }
+        #box2{order:89;}
+        #box3{order:89;}
+    </style>
+</head>
+<body>
+    <div id="flex-div">
+        <div id="box1">ABCD</div>
+        <div id="box2">ZXCV</div>
+        <div id="box3">TYUI</div>
+        <div id="box4">QWER</div>
+    </div>
+</body>
+</html>
