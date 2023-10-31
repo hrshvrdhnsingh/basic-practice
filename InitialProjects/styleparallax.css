@@ -1,9 +1,9 @@
 #wrapper{
-     overflow-y: auto; overflow-x: hidden;
+    overflow-y: auto;overflow-x:hidden;
 }
 *{margin:0px;padding:0px;}
 .page1{
-    background: url(/me1.jpeg);
+    background: url(me1.jpeg);
     background-size: 100% 100%;   display:flex;
     background-attachment: fixed; 
     justify-content: center;
@@ -12,7 +12,7 @@
     height:100vh;width:100vw;
 }
 .page2{
-    background: url(/loyola1.jpg);
+    background: url(loyola1.jpg);
     background-size: 100% 100%;
     display:flex; justify-content: left;
     background-attachment: fixed;
@@ -20,7 +20,7 @@
     height:100vh;width:100vw;
 }
 .page3{
-    background: url(/bitm.jpg);
+    background: url(bitm.jpg);
     background-size: 100% 100%;
     display:flex; justify-content: left;
     background-attachment: fixed;
@@ -28,36 +28,36 @@
     height:100vh;width:100vw;
 }
 .page1 h1{
-    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: relative;
+    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: absolute;
     margin:auto;background-color: gold;
-    text-align: center;left:48vh;padding:10px;width:250vw;
+    text-align: center;left:35w;top:40vh;padding:10px;width:50vw;
 }
 .page2 h1{
-    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: relative;
-    margin:auto;background-color: gold;width:850vw;
-    text-align: center;left:30vh;padding:0px;
+    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: absolute;
+    margin:auto;background-color: gold;width:70vw;
+    text-align: center;left:30vh;padding:0px;margin-top: 40vh;
 }
 .page3 h1{
-    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: relative;
-    margin:auto;background-color: gold;width:700vw;
-    text-align: center;left:50vh;padding:0px;
+    font-size: 250px;color:rgba(162, 75, 174, 0.87);position: absolute;
+    margin:auto;background-color: gold;width:80vw;
+    text-align: center;left:20vh;padding:0px;margin-top: 35vh;
 }
 .page1 p{
-    padding:50px;position:relative;
+    padding:100px;position:absolute;
     background-color:rgb(22, 46, 67); color:white;
-    font-size:100px;font-family:georgia;height:800px;width:200vw;
-    top:60%;
+    font-size:100px;font-family:georgia;height:400px;width:100vw;
+    top:75%;
 }
 .page2 p{
     padding:50px;position:relative;
     background-color:rgb(22, 46, 67); color:white;
-    font-size:80px;font-family:georgia;height:800px;width:350vw;
-    top:63%;
+    font-size:100px;font-family:georgia;height:400px;width:100000vw;
+    top:75%;
 }
 .page3 p{
     padding:50px;position:relative;
     background-color:rgb(22, 46, 67); color:white;
-    font-size:90px;font-family:georgia;height:400px;width:650%;
+    font-size:100px;font-family:georgia;height:400px;width:650%;
     top:70%;
 }
 .footer{
