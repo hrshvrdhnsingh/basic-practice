@@ -7,7 +7,7 @@
     height:100vh;
 }
 .container{
-    width:1600px; height:100%;
+    width:80vw; height:100%;
     margin:0 auto;
     padding:20px;
 }
@@ -15,7 +15,7 @@
     text-align:center;
     margin:20px 0;
     margin-bottom: 50px;
-    font-size: 4rem;
+    font-size: 9rem;
 }
 .gallery{
     display: flex;
@@ -26,7 +26,7 @@
     width:32%;
     position:relative;
     overflow:hidden;
-    margin-bottom:20px;
+    margin-bottom:80px;
     border-radius: 15px;
 }
 .card img{
@@ -47,8 +47,8 @@
 .card figcaption{
     position:absolute;
     width:100%; height:15%;
-    font-size:22px;
-    padding:25px;
+    font-size:80px;
+    padding:75px;
     color:#fff;
     bottom:0; left:0;
     font-weight:500;

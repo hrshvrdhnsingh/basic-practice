@@ -1,0 +1,24 @@
+.container{
+    width:100vw;height:70vh;
+    background-color: #333;
+    margin:20px;
+    display:grid; padding:20px;
+    grid-template-rows: 10vh 15vh 30vh 15vh;
+    grid-template-columns: 50vw 50vw;
+    grid-template-areas: 
+    "hd" "hd  "
+    "hd" "main"
+    "ft" "ft"
+    "sd" "sd"
+    "sd" "sd";
+}
+.box{
+    width:97.5w;
+    background-color: yellow;
+    font-size: 4rem;
+    margin:20px; margin-bottom: 20px;
+}
+#footer{grid-area: ft;}
+#content{grid-area: main;}
+#header{grid-area:hd;}
+#sidebar{grid-area: sd;}
