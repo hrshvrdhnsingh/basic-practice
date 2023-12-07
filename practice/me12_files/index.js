@@ -105,7 +105,72 @@ console.log(rect);
 
 let a1 = {value: 10};
 let a2 = a1;
-a1.value++;
-console.log(a1.value);
 console.log(a2.value);
 
+let a = [1,2,3,4];
+a.splice(2,2,'a','b','c');
+console.log(a);
+console.log(a.includes(3));
+
+/* let partners = [
+    {age:18, naam:'Kritika'},
+    {age:23, naam:'Ashna'}
+];
+
+let partner = partners.find(function(part) {
+    return part.age===18;
+})
+console.log(partner);
+let partner2 = partners.find(part => part.age==23); */
+//console.log(partner2); 
+
+a.splice(0,a.length);
+console.log(a);
+
+let ar = [12,0,3,23,50,47];
+let a3 = ar.slice(2,4);
+console.log(a3);
+console.log(ar);
+
+ar.forEach(function(number){
+    number*=10;
+    console.log(number);
+});
+console.log(ar);
+//Can only make difference when a condition is met inside the block
+let ner = ar.filter(number=> {
+    console.log(number**2); return "studentno."+number;
+});
+
+console.log(ner);
+
+let items = ar.map(function(number){
+    return "studentno."+ number;
+})
+
+//console.log(items);
+
+
+
+
+function sum(a,b=5){
+    return a+b;
+}
+
+console.log(sum(11));
+function mev(){
+    console.log("clicking");
+}
+document.addEventListener("click",mev);
+//document.removeEventListener("click", mev);
+
+let myDiv = document.createElement('div');
+for(let i=0;i<20;i++){
+    let newEl = document.createElement('p');
+    newEl.textContent = "this is para"+ i;
+    newEl.addEventListener("click", function(event){
+        console.log('Clicked on para');
+    });
+    myDiv.appendChild(newEl);
+}
+document.appendChild(myDiv);
